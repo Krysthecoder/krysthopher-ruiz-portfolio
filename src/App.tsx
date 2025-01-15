@@ -1,10 +1,10 @@
 import './App.css';
+import Introduction from './components/Introduction';
 
 function App() {
   return (
-    <div className="bg-white">
-      <button className="btn btn-secondary">secondary</button>
-      <button className="btn btn-primary">primary</button>
+    <div>
+      <Introduction />
     </div>
   );
 }
